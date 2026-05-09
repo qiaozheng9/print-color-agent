@@ -1,0 +1,38 @@
+# Environment
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Uploads
+uploads/
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# Documentation (not needed for runtime)
+PRD.md
+Project_Report.tex
+figures/
+User_Manual.md
+
+# Tests
+test_*.py
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
